@@ -21,6 +21,9 @@ cat R/Matrix_to_dynamic_d3_heatmap.R |
 results.dir = 'D3_demo_results' ; \
 input.tab.file = 'Demo_files/RNAseq_example.tab' ; "
 ##
-## Output: a html file with the dynamic D3 heatmap. Use firefox to visualize it.
+## Output: a html file with the dynamic D3 heatmap. Use firefox to visualize it. 
+##         User select a hierarchical clustering method to re-order the matrix.
+##         Clicking on the column or row names will re-order the heatmap.
+##         Pointing to each cell will display: (i) the column name, (ii) the row name and (iii) the value of the cell.
 
 
