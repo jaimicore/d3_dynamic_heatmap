@@ -20,5 +20,7 @@ cat R/Matrix_to_dynamic_d3_heatmap.R |
 /usr/bin/R --slave --no-save --no-restore --no-environ --args " \
 results.dir = 'D3_demo_results' ; \
 input.tab.file = 'Demo_files/RNAseq_example.tab' ; "
+##
+## Output: a html file with the dynamic D3 heatmap. Use firefox to visualize it.
 
 
